@@ -1,0 +1,346 @@
+.home-section{
+    display: flex;
+    background: #161616;
+    height: 100vh;
+}
+
+/*MENU*/
+.menu-ctr {
+    padding-left: 30px;
+    padding-top: 32px;
+    padding-right: 50px;
+    width: 75px;
+}
+
+.icon-tracks{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.icon-tracks i{
+    font-size: 40px;
+    color: #2BDE6A;
+}
+
+.menu-btns-ctr {
+    height: 120px;
+    width: 50px;
+    border-radius: 32px;
+    background: rgba(51,55,59,37%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.menu-btns-ctr button.favs-btn {
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.favs-btn .active{
+    color: white;
+}
+
+.favs-btn svg{
+    width: 20px;
+}
+
+
+.favs-btn i{
+    font-size: 18px;
+    color: rgba(255,255,255,30%);
+}
+
+.menu-btns-ctr button.favs-btn #act {
+    fill: #1DB954;
+}
+
+.menu-btns-ctr button.favs-btn #des {
+    fill: rgba(239,235,224,0.4);
+}
+
+
+.TracksList {
+    z-index: 10;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.TracksList .tracks-list-ctr {
+    overflow-y: auto;
+    max-height: calc(100vh - 107px);
+}
+
+/*NO ME ACUERDO XD*/
+.TracksList .tracks-list-ctr .tracks-list-upper-elem {
+    height: 100px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+
+}
+
+.TracksList .tracks-list-ctr .tracks-list-upper-elem p {
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+    color: #3DE176;
+}
+
+/*BUSCADOR ESTILOS*/
+.TracksList .search-ctr {
+    display: flex;
+    flex-flow: column;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.TracksList .search-ctr input.search-bar {
+    padding: 10px 0px;
+    width: 100%;
+    display: block;
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 500;
+    color: aqua;
+    /*border-bottom: 1px solid aqua;*/
+}
+
+.TracksList .search-ctr input.search-bar::placeholder {
+    color: rgba(255,255,255,45%);
+}
+
+.TracksList .search-ctr input.search-bar:focus {
+    /*border-bottom: 1px solid aqua;*/
+    color: white;
+}
+
+.TracksList .search-ctr input.search-bar::selection {
+    color: white;
+    background: aqua;
+}
+
+
+.TracksList .tracks-list-ctr h3 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.TracksList .tracks-list-ctr .separador {
+    margin-bottom: 30px;
+    height: 4px;
+    width: 150px;
+    background: #2BDE6A;
+}
+
+
+/*LISTA DE CANCIONES UL*/
+.TracksList .tracks-list-ctr ul {
+    list-style: none;
+    background: transparent;
+    width: 100%;
+}
+
+/*LI INDIVIDUAL*/
+.TracksList .tracks-list-ctr ul li {
+    text-overflow: ellipsis;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 15px;
+    letter-spacing: 0px;
+    margin: 8px 30px 0px 0px;
+    padding: 20px 0px;
+    background: rgba(51,55,59,60%);
+    color: white;
+    font-weight: 500;
+    width: calc(100% - 20px);
+}
+
+.TracksList .tracks-list-ctr ul li span {
+    padding-left: 30px;
+}
+
+.TracksList .tracks-list-ctr ul li.active span {
+    text-indent: 0px;
+    /*ANIMACION
+    animation: marquee 15s linear infinite;
+    padding-left: 100%;
+    */
+    color: #3DE176;
+    backface-visibility: hidden;
+}
+
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+
+.TracksList .tracks-list-ctr ul li.active {
+    color: rgba(51, 51, 51, 1);
+    text-overflow: clip;
+}
+
+/*Boton de cerrar menu*/
+.menu-btns-ctr button.back-btn svg {
+    fill: red;
+    opacity: 0.6;
+    display: none;
+}
+
+.menu-ctr button.back-btn {
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 29px;
+    padding-top: 2px;
+}
+
+.icon-spotify-mobile{
+    display: none;
+}
+
+.menu-btns-ctr-mobile{
+    display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .home-section{
+        height: calc(100vh - 160px);
+        display: flex;
+        background-image: url(https://cdns-images.dzcdn.net/images/artist/03ac3759cf240640d902d9aa5a067632/500x500.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .TracksList{
+        background-color: rgba(0,0,0,0.83);
+    }
+
+
+    .icon-spotify-mobile{
+        display: block;
+        width: 50px;
+    }
+
+    .icon-spotify-mobile img{
+        margin: 15px 0px;
+        width: 40px;
+    }
+
+    .menu-ctr {
+        display: none;
+    }
+
+    .tracklist-header{
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+    /*BUSCADOR ESTILOS*/
+    .TracksList .search-ctr {
+        display: flex;
+        flex-flow: column;
+        margin: 20px 10px;
+    }
+
+    .TracksList .search-ctr input.search-bar {
+        padding: 10px 0px;
+        font-size: 14px;
+    }
+
+    .TracksList .tracks-list-ctr h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .TracksList .tracks-list-ctr .separador {
+        margin-bottom: 30px;
+        height: 4px;
+        width: 110px;
+        background: #2BDE6A;
+    }
+
+    /*LI INDIVIDUAL*/
+    .TracksList .tracks-list-ctr ul li {
+        font-size: 12px;
+        padding: 18px 0px;
+        background: rgba(51,55,59,60%);
+        color: white;
+        font-weight: 500;
+    }
+
+    .menu-btns-ctr-mobile{
+        display: block;
+    }
+
+    .menu-btns-ctr-mobile button.favs-btn {
+        outline: none;
+        border: none;
+        background: transparent;
+        width: 26px;
+        margin: 26px 0px 0px 0px;
+        position: absolute;
+        right: 30px;
+    }
+
+    .menu-btns-ctr-mobile button.favs-btn #act {
+        fill: #1DB954;
+    }
+
+    .menu-btns-ctr-mobile button.favs-btn #des {
+        fill: rgba(239,235,224,0.4);
+    }
+
+    .TracksList .tracks-list-ctr {
+        overflow-y: auto;
+        max-height: calc(100vh - 160px);
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .home-section{
+        height: calc(100vh - 160px);
+        display: flex;
+        background-image: url(https://cdns-images.dzcdn.net/images/artist/03ac3759cf240640d902d9aa5a067632/500x500.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .TracksList{
+        background-color: rgba(0,0,0,0.83);
+    }
+
+    .menu-ctr{
+        background-color: rgba(0,0,0,0.83);
+    }
+
+}
+
+.TracksList .tracks-list-ctr::-webkit-scrollbar{
+    width: 10px;
+}
+
+.TracksList .tracks-list-ctr::-webkit-scrollbar-track{
+}
+
+.TracksList .tracks-list-ctr::-webkit-scrollbar-thumb{
+    background: rgba(255,255,255,60%);
+    border-radius: 0px;
+}
+
+
+
+
+
+

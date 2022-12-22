@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "title": "Post Malone - Circles",
+    "trackURL": "https://drive.google.com/uc?export=download&id=1VD1SrB0q9mfRfAkQQ-EK83v-zj4SP1SU",
+    "favourite": false,
+    "img": "https://i.scdn.co/image/ab67616d0000b2739478c87599550dd73bfa7e02"
+  },
+  {
+    "id": 2,
+    "title": "Quevedo: Bzrp Music Session. Vol. 52.",
+    "trackURL": "https://drive.google.com/uc?export=download&id=1YGdiMHyryUXmsUWqPXsnFCc6hvjtswmU",
+    "favourite": false,
+    "img": "https://i.scdn.co/image/ab67616d0000b2731630dd349221a35ce03a0ccf"
+  },
+  {
+    "id": 3,
+    "title": "Trueno - Ñeri",
+    "trackURL": "https://drive.google.com/uc?export=download&id=1manwDiU9F7eFcnbWFsWhjLv0In7v8aSh",
+    "favourite": false,
+    "img": "https://i.scdn.co/image/ab67616d0000b273f4483d4440a89a2cab3b5141"
+  },
+  {
+    "id": 4,
+    "title": "DLD - El Mapa de Tus Ojos",
+    "trackURL": "https://drive.google.com/uc?export=download&id=1EBus5-dfyk9Gmb3XFqU-I_GGQgRMn5lT",
+    "favourite": true,
+    "img": "https://i.scdn.co/image/ab67616d0000b2739b77eae207f50aa49e0d0e6b"
+  },
+  {
+    "id": 5,
+    "title": "Zoé - Labios Rotos",
+    "trackURL": "https://drive.google.com/uc?export=download&id=1EY9ebzJcldS3_7E0DmGRGDwZSOpgy487",
+    "favourite": false,
+    "img": "https://i.scdn.co/image/ab67616d0000b2739abba2e4a7600af6c16988a9"
+  },
+  {
+    "id": 6,
+    "title": "Natalia Lafourcade - Tu Si Sabes Quererme",
+    "trackURL": "https://drive.google.com/uc?export=download&id=1zpujSoLnJin-Gdr-XmOsnEFwzkRp4as4",
+    "favourite": false,
+    "img": "https://i.scdn.co/image/ab67616d0000b273a15386d23b0aefa3265961ca"
+  },
+  {
+    "id": 7,
+    "title": "DLD - Todo Cuenta",
+    "trackURL": "https://drive.google.com/uc?export=download&id=1e_1Q75WxWHqQ0Hbi6ys4WTH44FvFKK9E",
+    "favourite": true,
+    "img": "https://i.scdn.co/image/ab67616d0000b2732de85aa8d595887c58ca2775"
+  },
+  {
+    "id": 8,
+    "title": "Zoé - Arrullo de Estrellas",
+    "trackURL": "https://drive.google.com/uc?export=download&id=10EXJbyvqfQ1H5-SljZticphnOf80rUca",
+    "favourite": true,
+    "img": "https://i.scdn.co/image/ab67616d0000b2732fab9c100d51bfb22d5aff6c"
+  },
+  {
+    "id": 9,
+    "title": "Hombres G - Te Quiero",
+    "trackURL": "https://drive.google.com/uc?export=download&id=19ijt5Cl2DpNr_RilKyrLdX3Y9mqtdzvX",
+    "favourite": true,
+    "img": "https://i.scdn.co/image/ab67616d0000b273afcee2b081b5c3d0db994fa9"
+  },
+  {
+    "id": 10,
+    "title": "Natalia Lafourcade - Nunca Es Suficiente",
+    "trackURL": "https://drive.google.com/uc?export=download&id=1grY10WXIh19aEmpFxMIEoKQ0Yvw-rHKE",
+    "favourite": true,
+    "img": "https://i.scdn.co/image/ab67616d0000b273bd4c237c04735257dd64c510"
+  },
+  {
+    "id": 11,
+    "title": "KHEA: Bzrp Music Session. Vol. 34.",
+    "trackURL": "https://drive.google.com/uc?export=download&id=16v-GdMW4-KLBRrC5uzO4AYE6Z2MC3ox2",
+    "favourite": false,
+    "img": "https://i.scdn.co/image/ab67616d0000b273277b88f70945580009c993a8"
+  },
+  {
+    "id": 12,
+    "title": "KHEA - Keloke, Mamacita, tu msj",
+    "trackURL": "https://drive.google.com/uc?export=download&id=143TN3o_W65f08dqTTjsFAgZKBjB2Jho3",
+    "favourite": false,
+    "img": "https://i1.sndcdn.com/artworks-1w8Ghv3RREPj-0-t500x500.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Paulo Londra - Plan A",
+    "trackURL": "https://drive.google.com/uc?export=download&id=1iSGJB0QkI3AFUA7ldBp6UZYqYmw3nWks",
+    "favourite": false,
+    "img": "https://i.scdn.co/image/ab67616d0000b273ccccd9b321e9b4446ae22cc5"
+  },
+  {
+    "id": 14,
+    "title": "Jósean Log - Beso",
+    "trackURL": "https://drive.google.com/uc?export=download&id=15o1IagmotuQUbhn7XljG11-A3eX2O91L",
+    "favourite": false,
+    "img": "https://i.scdn.co/image/ab67616d0000b273a8659bf75fee7dc8c01afc67"
+  },
+  {
+    "id": 15,
+    "title": "Paulo Londra - Chance",
+    "trackURL": "https://drive.google.com/uc?export=download&id=1reDks3OzgApzCoiDDWqAKJMvipRdLGNj",
+    "favourite": false,
+    "img": "https://i.scdn.co/image/ab67616d0000b2737d43a83165d3d237f6463102"
+  },
+  {
+    "id": 16,
+    "title": "Caloncho - Chupetazos",
+    "trackURL": "https://drive.google.com/uc?export=download&id=1Dz1ZAQlZnjygvGzLsuwrJT4-Vf6e_T8u",
+    "favourite": true,
+    "img": "https://i.scdn.co/image/ab67616d0000b273a535a09fd20a3a35e687dd86"
+  },
+  {
+    "id": 17,
+    "title": "Hombres G - Suéltate EL Pelo",
+    "trackURL": "https://drive.google.com/uc?export=download&id=1eLJo3K1USjmxRNcf9q54ahqiTEesg_YK",
+    "favourite": true,
+    "img": "https://i.scdn.co/image/ab67616d0000b27354ceed60d9582c8d68fede9a"
+  },
+  {
+    "id": 18,
+    "title": "Enjambre - Somos Ajenos",
+    "trackURL": "https://drive.google.com/uc?export=download&id=1E1wRs9xz7uSLJsI33Zii38vYXMceRJ5l",
+    "favourite": true,
+    "img": "https://i.scdn.co/image/ab67616d0000b27369d1fb33044a581470cb7758"
+  },
+  {
+    "id": 19,
+    "title": "kiddtetoon - Illuminati",
+    "trackURL": "https://drive.google.com/uc?export=download&id=16Z_hd2b0fmvg0n40UW2dNUbrVN82j1e1",
+    "favourite": false,
+    "img": "https://i.scdn.co/image/ab67616d0000b27399bcef2c1971a2c70fdf0f96"
+  },
+  {
+    "id": 20,
+    "title": "Siddhartha - Náufrago",
+    "trackURL": "https://drive.google.com/uc?export=download&id=1xWulNrlM3Oz4aLVflkMtDcevZc4fnM4_",
+    "favourite": true,
+    "img": "https://i.scdn.co/image/ab67616d0000b273e7b7157d868abef6aaf352e6"
+  }
+]

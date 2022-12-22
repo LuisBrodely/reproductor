@@ -1,0 +1,155 @@
+.admin{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.column{
+    padding-left: 30px;
+    padding-top: 12px;
+    position: fixed;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+}
+
+.icon i{
+    font-size: 40px;
+    color: white;
+}
+
+.box{
+    width: 50px;
+    height: 120px;
+    background: rgba(55,51,59,55%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 32px;
+}
+
+.icon-menu{
+    display: flex;
+    justify-content: center;
+}
+
+.icon-menu i{
+    color: rgba(255,255,255,30%);
+    font-size: 18px;
+    padding: 14px 0px;
+}
+
+.icon-menu .active{
+    color: white;
+}
+
+.icon-menu .activeu{
+    color: #2BDE6A;
+}
+
+.admin-section{
+    overflow: auto;
+    background: black;
+    padding-left: 120px;
+    padding-top: 20px;
+}
+
+.admin-section h3{
+    color: white;
+}
+
+/*INPUTS CAJAS*/
+
+.box-input{
+    width: calc(100% - 5%);
+    margin-bottom: 50px;
+}
+
+.box-input h3{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.box-input h5{
+    color: #4CD964;
+    margin-top: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.admin::-webkit-scrollbar{
+    width: 10px;
+}
+
+.admin::-webkit-scrollbar-track{
+}
+
+.admin::-webkit-scrollbar-thumb{
+    background: rgba(255,255,255,60%);
+    border-radius: 0px;
+}
+
+
+.admin input{
+    width: 100%;
+    height: 48px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+}
+
+.admin input{
+    outline: none;
+    padding: 0 15px;
+    color: white;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,50%);
+}
+
+.admin input::placeholder{
+    color : rgba(255,255,255,50%);
+}
+
+.admin input:focus{
+    color: white;
+}
+
+.admin input::selection {
+    color: white;
+    background: aqua;
+}
+
+.admin button{
+    height: 48px;
+    width: 400px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+}
+
+.admin button{
+    margin-top: 10px;
+    color: #fff;
+    background-color: #1DB954;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+.admin button:hover{
+    background-color: red;
+}
+
+.input-columns{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-columns .input-admin{
+    width: 49%;
+}
+
+@media only screen and (max-width: 600px) {
+
+}
